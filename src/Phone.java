@@ -33,14 +33,14 @@ public class Phone {
         if (message != null) {
             System.out.println("\nThe message '" + message + "' was sent to the numbers: ");
             for (int number : numbers) {
-            System.out.print(number + "  ");
+                System.out.print(number + "  ");
             }
         }
     }
 
     @Override
     public String toString() {
-        return "Phone: number "  + number +
+        return "Phone: number " + number +
                 ", model '" + model + '\'' +
                 ", weight " + weight;
     }

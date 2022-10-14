@@ -25,7 +25,7 @@ public class Main {
         apple.receiveCall("Olga", apple.getNumber());
         xiaomi.receiveCall("Masha", xiaomi.getNumber());
 
-        samsung.sendMessage("Hello",1234567, 7654321, 4444444);
-        apple.sendMessage(null,5555555, 7777777);
+        samsung.sendMessage("Hello", 1234567, 7654321, 4444444);
+        apple.sendMessage(null, 5555555, 7777777);
     }
 }
